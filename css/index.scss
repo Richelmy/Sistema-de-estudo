@@ -1,0 +1,76 @@
+body
+{
+    margin: 0;
+}
+
+#loginUser, #loginSenha
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+fieldset
+{
+    float: right;
+    margin: 150px 5% 0 5%;
+    padding: 0 10% 0 10%;
+    border: none;
+}
+
+fieldset input[type=submit]
+{
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.5s;
+    outline: none;
+}
+
+fieldset input[type=submit]:hover 
+{
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+.Navbar 
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #fff;
+    border-bottom: 1px solid #666;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.navbarItem
+{
+    float: left;
+}
+
+.navbarItem a 
+{
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+}
+
+.pointerNull
+{
+    cursor: default;
+}
