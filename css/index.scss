@@ -74,3 +74,28 @@ fieldset input[type=submit]:hover
 {
     cursor: default;
 }
+
+.menu-container 
+{
+    display: flex;
+    flex-direction: row;    
+}
+  
+.menu-container > div 
+{
+    background-color: #f1f1f1;
+    margin: 50px 10px;
+    width: 100%;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+@media (max-width: 800px) 
+{
+    .menu-container 
+    {
+      flex-direction: column;
+    }
+}
