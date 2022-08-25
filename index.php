@@ -34,39 +34,7 @@ if (!isset($_SESSION["userID"]) || !isset($_SESSION["userNome"]))
         <div>
             <p>Sistema teste (1)</p>
 
-            <table>
-                <tr>
-                    <td>Nome</td>
-                    <td>Idade</td>
-                    <td>Profissão</td>
-                    <td>Teste</td>
-                    <td>Teste</td>
-                </tr>
-                <tr>
-                    <td>Ted</td>
-                    <td>22</td>
-                    <td>Estudante</td>
-                    <td>Teste</td>
-                    <td>Teste</td>
-                    <td>
-                        <i class="fa-solid fa-circle-plus"></i>
-                        <i class="fa-solid fa-pen-to-square"></i>
-                        <i class="fa-solid fa-circle-minus"></i>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Ralf</td>
-                    <td>26</td>
-                    <td>Designer</td>
-                    <td>Teste</td>
-                    <td>Teste</td>
-                    <td>
-                        <i class="fa-solid fa-circle-plus"></i>
-                        <i class="fa-solid fa-pen-to-square"></i>
-                        <i class="fa-solid fa-circle-minus"></i>
-                    </td>
-                </tr>
-            </table>
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
         </div>
         <div>
             2
@@ -75,5 +43,53 @@ if (!isset($_SESSION["userID"]) || !isset($_SESSION["userNome"]))
             3
         </div>  
     </div>
+
+<div id="id01" class="modal">
+  
+  <div class="modal-content animate">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+    <p>Tabela teste de teste</p>
+    <div class="container">
+    <table>
+        <tr>
+            <td>Nome</td>
+            <td>Idade</td>
+            <td>Profissão</td>
+            <td>Teste</td>
+            <td>Teste</td>
+        </tr>
+        <tr>
+            <td>Ted</td>
+            <td>22</td>
+            <td>Estudante</td>
+            <td>Teste</td>
+            <td>Teste</td>
+            <td>
+                <i class="fa-solid fa-circle-plus"></i>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-solid fa-circle-minus"></i>
+            </td>
+        </tr>
+        <tr>
+            <td>Ralf</td>
+            <td>26</td>
+            <td>Designer</td>
+            <td>Teste</td>
+            <td>Teste</td>
+            <td>
+                <i class="fa-solid fa-circle-plus"></i>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-solid fa-circle-minus"></i>
+            </td>
+        </tr>
+    </table>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+    </div>
+  </div>
+</div>
 </body>
 </html>
